@@ -1,5 +1,5 @@
  <?php
-         include('config.php');
+         include('../dir/config.php');
 
         // Create connection
         $conn = mysqli_connect($host_name, $user_name, $password, $database);
@@ -30,12 +30,8 @@
                 echo "<tr>";
                   echo "<td>" . $row["id"]. "</td>
                         <td>" . $row["first_name"]. " " . $row["last_name"] . "</td>
-                        <td>" . $row["address_1"]. "<br>" . $row["address_2"] . "</td>
-                        <td>" . $row["select_time"] . "</td>
-                        <td>" . $row["apt_date"] . "</td>
-                        <td>" . $row["visit"] . "</td>
-                        <td>" . $row["phone_number"] . "</td>
-                        <td>" . $row["notes"] ."</td>";
+                        <td>" . $row["phone_number"]. "</td>
+                        <td>" . $row["dob"] . "</td>";
                 echo "</tr>";
               }
           } else {

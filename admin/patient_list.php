@@ -1,5 +1,5 @@
  <?php
-         include('config.php');
+         include('../dir/config.php');
 
         // Create connection
         $conn = mysqli_connect($host_name, $user_name, $password, $database);

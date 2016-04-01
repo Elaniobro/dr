@@ -1,5 +1,2 @@
 admin/.htaccess
-admin/index.php
-dir/email.php
-dir/patient_submit.php
-dir/request_submit.php
+dir/config.php

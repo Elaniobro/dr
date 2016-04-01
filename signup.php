@@ -42,18 +42,18 @@
       <small class="error">Please put your address.</small>
     </div>
     <div class="large-2 columns">
-      <label>Address 2: 
+      <label>Address 2:
         <input name="address_2" type="text" id="address_2" placeholder="Apt 1B"/>
       </label>
     </div>
     <div class="large-3 columns">
-      <label>city: 
+      <label>city:
         <input name="city" type="text" id="city" placeholder="Springfield" required/>
       </label>
       <small class="error">Please put your city.</small>
     </div>
     <div class="large-1 columns">
-      <label>State: 
+      <label>State:
         <select name="state" id="state" required>
           <option value="">--</option>
           <option value="AL">AL</option>
@@ -112,7 +112,7 @@
       <small class="error">State?</small>
     </div>
     <div class="large-2 columns">
-      <label>Zip Code: 
+      <label>Zip Code:
         <input name="zip_code" type="number" id="zip_code" placeholder="11111" required/>
       </label>
       <small class="error">Enter your zip code.</small>
@@ -120,10 +120,9 @@
   </div>
   <div class="row">
     <div class="large-3 columns">
-      <label>Social Security #: <small>required</small>
-        <input name="social_security" type="dashes_only" id="social_security" placeholder="ex: XXX-XX-XXXX" required/>
+      <label>Social Security #:
+        <input name="social_security" type="dashes_only" id="social_security" placeholder="ex: XXX-XX-XXXX"/>
       </label>
-      <small class="error">What is your Social Securtiy #?</small>
     </div>
     <div class="large-3 columns">
       <label>Spouse Full Name: <small>required</small>
@@ -158,7 +157,7 @@
   </div>
   <div class ="row">
     <div class="large-6 columns">
-      <label>Secondary Insurance: 
+      <label>Secondary Insurance:
         <input name="secondary_insurance" id="secondary_insurance" type="text" placeholder="ex: Mary Jane" />
       </label>
     </div>
@@ -175,7 +174,7 @@
   </div>
   <div class ="row">
     <div class="large-4 columns">
-      <label>Primary Care Physican's (PCP) Name: 
+      <label>Primary Care Physican's (PCP) Name:
         <input name="primary_care_name" type="text" id="primary_care_name" placeholder="ex: Mary Jane" required/>
       </label>
        <small class="error">Who is your primary care doctor?</small>
@@ -195,15 +194,15 @@
   </div>
   <div class="row">
      <div class="large-6 columns">
-      <label>Current medications taken: 
+      <label>Current medications taken:
         <input name="current_medications" type="text" id="current_medications" placeholder="ex: Mary Jane"/>
       </label>
     </div>
     <div class="large-6 columns">
-      <label>Allergies: 
+      <label>Allergies:
         <input name="allergies" type="text" id="allergies" placeholder="ex: Mary Jane" />
       </label>
-    </div>   
+    </div>
   </div>
   <div class="row">
     <div class="large-3 columns">
@@ -221,12 +220,12 @@
       <input name="epilepsy" id="epilepsy" type="checkbox"><label for="epilepsy">Epilepsy</label><br/>
       <input name="glaucoma" id="glaucoma" type="checkbox"><label for="glaucoma">Glaucoma</label><br/>
       <input name="gout" id="gout" type="checkbox"><label for="gout">Gout</label><br/>
-      <input name="heart_condition" id="heart_condition" type="checkbox"><label for="heart_condition">Heart Condition</label><br/>    
+      <input name="heart_condition" id="heart_condition" type="checkbox"><label for="heart_condition">Heart Condition</label><br/>
       <input name="hiv" id="hiv" type="checkbox"><label for="hiv">H.I.V.</label><br/>
       <input name="high_blood_pressure" id="high_blood_pressure" type="checkbox"><label for="high_blood_pressure">High Blood Pressure</label><br/>
       <input name="joint_implants" id="joint_implants" type="checkbox"><label for="joint_implants">Joint Implants</label><br/>
     </div>
-    <div class="large-3 columns">      
+    <div class="large-3 columns">
       <input name="kidney_disorder" id="kidney_disorder" type="checkbox"><label for="kidney_disorder">Kidney Disorders</label><br/>
       <input name="liver_disease" id="liver_disease" type="checkbox"><label for="liver_disease">Liver Disease</label><br/>
       <input name="lung_disease" id="lung_disease" type="checkbox"><label for="lung_disease">Lung Disease</label><br/>
@@ -234,7 +233,7 @@
       <input name="pace_maker" id="pace_maker" type="checkbox"><label for="pace_maker">Pace Maker</label><br/>
       <input name="poor_circulation" id="poor_circulation" type="checkbox"><label for="poor_circulation">Poor Circulation</label><br/>
       <input name="psychiatric_disorder" id="psychiatric_disorder" type="checkbox"><label for="psychiatric_disorder">Psychiatric Disorder</label><br/>
-      <input name="replacement_heart" id="replacement_heart" type="checkbox"><label for="replacement_heart">Replacement Heart</label><br/>    
+      <input name="replacement_heart" id="replacement_heart" type="checkbox"><label for="replacement_heart">Replacement Heart</label><br/>
     </div>
     <div class="large-3 columns">
       <input name="rheumatic_fever" id="rheumatic_fever" type="checkbox"><label for="rheumatic_fever">Rhemnatic Fever</label><br/>
@@ -249,7 +248,7 @@
   </div>
   <div class="row">
     <div class="large-12 columns">
-      <label>How were you referred to Dr. Trybuch? 
+      <label>How were you referred to Dr. Trybuch?
         <textarea name="referred" id="referred"type="text" rows="6" placeholder="ex: I found Dr. Trybuch from a google.com search"></textarea>
       </label>
     </div>
@@ -263,14 +262,14 @@
 </form>
     <script>
     $(function(){
-      $('#dob').fdatepicker(); 
+      $('#dob').fdatepicker();
        $('#signup').on('valid', function(e) {
-        //prevent default form submitting and propagatin so it can run the ajax code first 
+        //prevent default form submitting and propagatin so it can run the ajax code first
         e.stopPropagation();
         e.preventDefault();
-       
+
        //
-        $('#signup').on('valid.fndtn.abide', function() {    //if the form is valid then grab the values of these IDs (name, email, message) 
+        $('#signup').on('valid.fndtn.abide', function() {    //if the form is valid then grab the values of these IDs (name, email, message)
          var  first_name                = $("input#first_name").val(),
               last_name                 = $("input#last_name").val(),
               address_1                 = $("input#address_1").val(),
@@ -330,7 +329,7 @@
 
 
           //Data for reponse (store the values here)
-          var dataString = 'last_name=' + last_name + '&first_name=' + first_name + '&address_1=' +  address_1+ '&address_2=' + address_2+ '&city=' + city + '&state=' + state + '&zip_code=' + zip_code + '&phone_number=' + phone_number + '&dob=' + dob + '&social_security=' + social_security + 
+          var dataString = 'last_name=' + last_name + '&first_name=' + first_name + '&address_1=' +  address_1+ '&address_2=' + address_2+ '&city=' + city + '&state=' + state + '&zip_code=' + zip_code + '&phone_number=' + phone_number + '&dob=' + dob + '&social_security=' + social_security +
               '&spouse_name=' + spouse_name + '&guarantor=' + guarantor + '&primary_insurance=' + primary_insurance + '&primary_insurance_id=' + primary_insurance_id + '&primary_insurance_group=' + primary_insurance_group +
               '&secondary_insurance=' + secondary_insurance + '&secondary_insurance_id=' + secondary_insurance_id + '&secondary_insurance_group=' + secondary_insurance_group + '&primary_care_name=' + primary_care_name + '&primary_care_number=' + primary_care_number +
               '&treatment=' + treatment + '&current_medications=' + current_medications + '&allergies=' + allergies + '&anemia=' + anemia + '&alzheimer=' + alzheimer + '&arthritis=' + arthritis + '&asthma=' + asthma + '&bleeding_disorder=' + bleeding_disorder + '&cancer=' + cancer + '&lung_disease=' + lung_disease +
@@ -341,15 +340,15 @@
           //Begin Ajax call
           $.ajax({
             type: "POST",
-            url:"dir/patient_submit.php", //runs the php code 
-            data: dataString, //stores the data to be passed 
+            url:"dir/patient_submit.php", //runs the php code
+            data: dataString, //stores the data to be passed
             success: function(data){ // if success then generate the div and append the the following
               $('#signup').html("<div id='success'></div>");
               $('#success').html("<br /><h4>Thank you for saving paper!</h4>")
               .append('<p>'+ first_name + ' ' + last_name + ',<br />by filling out paperwork online, this helps your visit become quicker.</p>')
               .hide()
               .fadeIn(1500);
-             
+
             },
             error: function(jqXHR, status, error){ //this is to check if there is any error
                 alert("status: " + status + " message: " + error);
@@ -357,8 +356,8 @@
           }); //End Ajax call
           return false;
         });
-      });  
+      });
     });
-  
+
     </script>
 <?php include('footer.php'); ?>

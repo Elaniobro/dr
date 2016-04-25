@@ -13,7 +13,7 @@
           <ul>
             <li>1968-1972:  Brooklyn College, Brooklyn, New York, B.S.</li>
             <li>1972-1976:  Ohio College of Podiatric Medicicne, Cleveland, Ohio</li>
-            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1976:  Externship Northlake Community Hospital, Chicago, IL</li>          </ul>
+            <li>1976:  Externship Northlake Community Hospital, Chicago, IL</li>          </ul>
           <h4>Professional Affiliation</h4>
           <ul>
             <li>Maryland Podiatric Medical Association</li>
@@ -21,8 +21,8 @@
           </ul>
           <h4>Office Hours</h4>
           <ul>
-            <li>Tuesday:  Capitol Hill  9:00am - 5:00pm</li>
-            <li>Thursday:  Capitol Hill  9:00am - 5:00pm</li>
+            <li>Tuesday:  Capitol Hill  9:00am - 4:00pm</li>
+            <li>Thursday:  Capitol Hill  9:00am - 4:00pm</li>
           </ul>
         </div>
         <div class="large-3 pull-9 columns">

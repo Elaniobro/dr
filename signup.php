@@ -343,7 +343,7 @@
             url:"dir/patient_submit.php", //runs the php code
             data: dataString, //stores the data to be passed
             success: function(data){ // if success then generate the div and append the the following
-              $('#signup').html("<div id='success'></div>");
+              $('#signup').html("<div id='success' class='row'></div>");
               $('#success').html("<br /><h4>Thank you for saving paper!</h4>")
               .append('<p>'+ first_name + ' ' + last_name + ',<br />by filling out paperwork online, this helps your visit become quicker.</p>')
               .hide()

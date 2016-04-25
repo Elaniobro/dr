@@ -22,8 +22,8 @@
               </div>
               <div class="large-4 columns hide-for-small">
                 <h4>Appointment!</h4><hr/>
-                <a class="large button expand" href="/request">Request an Appointment &raquo;</a>
-                <a class="large button expand" href="/signup">New Patient Form &raquo;</a>
+                <a class="large button expand" href="/dr/request">Request an Appointment &raquo;</a>
+                <a class="large button expand" href="/dr/signup">New Patient Form &raquo;</a>
               </div>
             </div>
           </div>

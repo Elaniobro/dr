@@ -7,7 +7,6 @@
           <hr/>
           <article>
             <h3><a name="AthleteFoot" data-magellan-destination="AthleteFoot"></a>Athlete's Foot</h3>
-            <h5>Written by <a href="#">John Smith</a> on August 12, 2012.</h5>
               <div class="large-12 columns">
                 <p>Athlete's foot is the most common term to describe a fungus condition involving the skin of the feet and toes. Another term is Tinea Pedis. A more appropriate name is Dermatophytosis. The three names above really mean the same thing. The patient first notices an itching sensation, usually between the toes. The skin in that area may have small blisters and be peeling. A less itchy form of Athlete's Foot can appear as a dry, red peeling condition on the bottom of the foot. The skin may be red with scaling and there may be small blisters containing a sticky, clear fluid around the area. The skin may have a stinging or burning feeling. The area between toes may show peeling with cracks and redness and maceration (moist, white wrinkled area). Generally there is considerable itching.
                 </p>

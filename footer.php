@@ -7,7 +7,7 @@
           </div>
           <div class="large-6 columns">
             <ul class="inline-list right">
-              <li>Office Hours: 9am - 5pm Tuesday & Thursday</li>
+              <li>Office Hours: 9am - 4pm Tuesday & Thursday</li>
               <li></li>
               <li></li>
               <li></li>

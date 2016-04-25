@@ -49,7 +49,7 @@
             <div class="row">
               <div class="large-4 columns">
                 <a href="contact" class="radius button ">Contact Us</a>
-                <h5>We want to hear from you, send us an email by clicking above!</h5>
+                <h5>We love to hear from you. Please use this contact form to reach either Dr.Trybuch or anyone on his staff with any comments or suggestions.</h5>
               </div>
               <div class="large-4 columns">
                 <a href="request" class="radius button ">Appointment Request</a>

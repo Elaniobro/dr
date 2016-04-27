@@ -20,7 +20,7 @@
             <h4>Specialities</h4>
             <img src="img/specialities.jpg"/>
           </a>
-            <p>All medical and surgical care of the foot, with emphasis on diabetic/geriatric footcare. Native speaker of Yiddish, Hebrew & Polish.</p>
+            <p>All medical and surgical care of the foot, with emphasis on diabetic/geriatric footcare.</p>
           </a>
         </div>
 
@@ -35,10 +35,10 @@
 
         <div class="large-4 columns">
           <a href="info" target="_self">
-            <h4>Office Info and Polices</h4>
+            <h4>Office Info and Policies</h4>
             <img src="img/office.jpg"/>
           </a>
-            <p>Located in Washington D.C. historic Capitol Hill, around the corner from the Eastern Market om the orange and blue Metro line.</p>
+            <p>Located in Washington D.C. historic Capitol Hill, around the corner from the Eastern Market on the orange and blue Metro line.</p>
 
         </div>
       </div>
@@ -49,7 +49,7 @@
             <div class="row">
               <div class="large-4 columns">
                 <a href="contact" class="radius button ">Contact Us</a>
-                <h5>We love to hear from you. Please use this contact form to reach either Dr.Trybuch or anyone on his staff with any comments or suggestions.</h5>
+                <h5>Contact Dr.Trybuch or anyone on his staff.</h5>
               </div>
               <div class="large-4 columns">
                 <a href="request" class="radius button ">Appointment Request</a>

@@ -15,23 +15,22 @@
 		$last_name					 = addslashes($_POST['last_name']);
 		$first_name					 = addslashes($_POST['first_name']);
 		$dob						 = addslashes($_POST['dob']);
+		$phone_number				 = addslashes($_POST['phone_number']);
+		$email						 = addslashes($_POST['email']);
 		$address_1					 = addslashes($_POST['address_1']);
 		$address_2					 = addslashes($_POST['address_2']);
 		$city						 = addslashes($_POST['city']);
 		$state						 = addslashes($_POST['state']);
 		$zip_code					 = addslashes($_POST['zip_code']);
-		$phone_number				 = addslashes($_POST['phone_number']);
-		$email						 = addslashes($_POST['email']);
 		$primary_insurance			 = addslashes($_POST['primary_insurance']);
 		$primary_insurance_id		 = addslashes($_POST['primary_insurance_id']);
 		$secondary_insurance		 = addslashes($_POST['secondary_insurance']);
 		$secondary_insurance_id		 = addslashes($_POST['secondary_insurance_id']);
 		$primary_care_name		 	 = addslashes($_POST['primary_care_name']);
 		$primary_care_number	  	 = addslashes($_POST['primary_care_number']);
-		$current_care				 = addslashes($_POST['curent_care']);
-		$blood_meds					 = addslashes($_POST['blood_meds']);
+		$treatment					 = addslashes($_POST['treatment']);
+		$current_medications		 = addslashes($_POST['current_medications']);
 		$diabetes					 = addslashes($_POST['diabetes']);
-
 		$poor_circulation			 = addslashes($_POST['poor_circulation']);
 		$gout						 = addslashes($_POST['gout']);
 		$cancer						 = addslashes($_POST['cancer']);
@@ -41,8 +40,8 @@
 		$high_blood_pressure		 = addslashes($_POST['high_blood_pressure']);
 		$pharmacy_name				 = addslashes($_POST['pharmacy_name']);
 		$pharmacy_loc				 = addslashes($_POST['pharmacy_loc']);
-		$current_medications		 = addslashes($_POST['current_medications']);
 		$referred					 = addslashes($_POST['referred']);
+		$blood_meds					 = addslashes($_POST['blood_meds']);
 
 
 		$sql = "INSERT INTO patients
@@ -50,14 +49,14 @@
 			registration_date, last_name, first_name, address_1, address_2, city, state, zip_code, phone_number, dob, email,
 			primary_insurance, primary_insurance_id,
 			secondary_insurance, secondary_insurance_id, primary_care_name, primary_care_number,
-			current_care, blood_meds, diabetes, poor_circulation, gout, cancer, kidney_disorder, hiv, heart_condition, high_blood_pressure, pharmacy_name, pharmacy_loc, current_medications, referred
+			treatment, blood_meds, diabetes, poor_circulation, gout, cancer, kidney_disorder, hiv, heart_condition, high_blood_pressure, pharmacy_name, pharmacy_loc, current_medications, referred
 			)
 
 		VALUES (
 			'$registration_date', '$last_name', '$first_name', '$address_1', '$address_2', '$city', '$state', '$zip_code', '$phone_number', '$dob', '$email',
 			'$primary_insurance', '$primary_insurance_id', '$secondary_insurance',
 			'$secondary_insurance_id', '$primary_care_name', '$primary_care_number',
-			'$current_care', '$blood_meds', '$diabetes', '$poor_circulation', '$gout', '$cancer', '$kidney_disorder', '$hiv', '$heart_condition', '$high_blood_pressure', '$pharmacy_loc', '$pharmacy_name', 'current_medications', '$referred'
+			'$treatment', '$blood_meds', '$diabetes', '$poor_circulation', '$gout', '$cancer', '$kidney_disorder', '$hiv', '$heart_condition', '$high_blood_pressure', '$pharmacy_loc', '$pharmacy_name', '$current_medications', '$referred'
 		);";
 
 		if ($conn->query($sql) === TRUE) {

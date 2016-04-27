@@ -67,7 +67,6 @@
     <div class="large-4 columns">
       <label>Which location do you wish to visit? <small>required</small>
         <select name="office_location" id="office_location" size="1" class="textForm" required>
-          <option value="silverspring">Silver Spring, MD</option>
           <option value="capitolhill">Capitol Hill, Washington DC</option>
         </select>
       </label>

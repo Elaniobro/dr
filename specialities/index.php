@@ -17,6 +17,7 @@
                 <h5>Prevention</h5>
                 <p>The best offense is a good defense! Use powder in shoes and socks. Do not wear synthetic or nylon socks that trap perspiration. Wear cotton to absorb moisture . Dry feet thoroughly, particularly between toes (consider a hair drier on low heat). Change socks and wash shoes periodically. Use your topical medicine and if it doesn't improve, check with your foot and ankle specialist right away.</p>
               </div>
+              <a class="button tiny" href="#top">Back to top</a>
           </article>
 
           <hr/>
@@ -34,6 +35,7 @@
               <h5>Treatment of Bunion Deformity</h5>
               <p>Early treatment of bunions is centered on providing symptomatic relief. Switching to a shoe with a rounder, deeper toe box and made of a softer more pliable leather will often provide immediate relief. The use of pads and cushions to reduce the pressure over the bone can also be helpful for mild bunion deformities. Controlling abnormal pronation, by the use of Orthotics and ther by reduces the deforming forces leading to bunions in the first place is usually the initial treatment of choice. These may help reduce pain in mild bunion deformities and slow the progression of the deformity. When these conservative measures fail to provided adequate relief, surgical correction is indicated. The choice of surgical procedures (<strong>bunionectomy</strong>) is based on a biomechanical and radiographic examination of the foot. Because there is actual bone displacement and joint adaptation, most successful bunionectomies require cutting and realigning the 1st metatarsal (an <strong>osteotomy</strong>). Simply "shaving the bump" is often inadequate in providing long-term relief of symptoms and in some cases can actually cause the bunion to progress faster. The most common procedure performed for the correction of bunions is the osteotomy near the level of the joint.</p>
             </div>
+            <a class="button tiny" href="#top">Back to top</a>
           </article>
 
           <hr/>
@@ -50,6 +52,7 @@
               <h5>Treatment</h5>
               <p>Over the counter products that contain the ingredient salicylic acid may be tried if you have good blood flow, good feeling in your feet, and the wart is small. However, their use is slow and frustrating. They are acids which slowing destroy the wart from the surface down. Diabetics or other people with numbness or bad circulation should not use these products, as it can cause ulceration. Your doctor has a number of choices for treating your Plantar Wart. Unfortunately, warts are stubborn entities and even the best methods for removing them allow a high rate of reoccurrence, around 15%. . Depending on the size and number of warts, treatment can take from 1-4 months before the wart is completely gone, and like any infection, all parts of it must be completely eliminated, or it will grow back. An additional option is to physically remove the wart at one time, either surgically, or with the CO2 laser. The healing time is from 2-4 weeks, depending on the size. Use of the CO2 laser reduces the rate of reoccurrence to 10%, reduces post-operative pain and eliminates any bleeding.</p>
             </div>
+            <a class="button tiny" href="#top">Back to top</a>
           </article>
 
           <hr/>
@@ -82,6 +85,7 @@
               <p>Yes. The best prevention is treating the underlying cause of the ulcer. That means if you are a diabetic, check your blood sugar daily and inspect your feet every day. If the reason for your ulcer is due to swelling in the legs, then you need to wear support stockings and keep your feet elevated as much as possible.</p>
               <p>Ulcers can be a very debilitating problem, causing pain and disability. The best treatment is preventing the ulcer from ever occurring. If it does occur, have it checked immediately by your doctor.</p>
               </div>
+              <a class="button tiny" href="#top">Back to top</a>
           </article>
 
           <hr/>
@@ -102,6 +106,7 @@
               <p>Often changing your style or size of shoes may help. Carefully review the shoes in your closet. Check their fit and discard any that have seams and stitching over painful corns or have worn out innersoles that offer too little protection for calluses on the ball and heel of your foot.</p>
               <p>Make sure shoes are wide enough for your feet and have enough depthin the toe area to allow minimal pressure on the toes. To demonstrate whether your shoes are of adequate size and shape, place your foot on a blank sheet of paper and trace the shape of your foot. Then, place the shoe in question on top of your foot tracing. You may be surprised, as are many people, that your shoes are actually smaller and narrower than your feet. Try to imagine the forces present in that shoe when you squeeze your foot into it and then walk at any speed. Ouch! Review the socks in your drawer. If they have thick seams at the toes or holes, it's time to go shopping. Try to choose natural materials such as cotton and wool. Several types of socks (such as Thor-lo brand) have a double thickness in the toes and heels to protect these areas. Nylon hose can be purchased that have a woven cotton sole on the bottom of the foot to offer less friction and more padding. Corns and calluses almost always persist until corrective surgical measures are taken, so don't become discouraged if your efforts to prevent them are less than successful.</p>
             </div>
+            <a class="button tiny" href="#top">Back to top</a>
           </article>
           <!-- IngrownToenails -->
           <article>
@@ -115,6 +120,7 @@
                 <h5>Prevention</p>
                 <p>Cutting toe nails properly goes a long way toward the prevention of ingrown nails. Cut the nails STRAIGHT ACROSS, so that the nail corner is visible. If you cut the nail too short so that the nail corner is not visible, you are inviting the nail corner to grow into the skin. It is the natural tendency, when the edge of the nail starts to grow in, to cut down at an angle at the nail edge, to relieve the pain. This DOES relieve he pain TEMPORARILY, but it also starts the downward spiral, training the nail to become more and more ingrown.</p>
               </div>
+              <a class="button tiny" href="#top">Back to top</a>
           </article>
 
           <hr/>
@@ -136,6 +142,7 @@
               <p>Cortisone injections are usually done at weekly intervals, and most cases require 1-3 injections. The skin can be desensitized before the injection with a cold freezing spray designed to provide brief anesthesia. The injection is done from the inner side of the heel, not from the bottom. It is helpful to strap the arch with tape combined with an arch pad. This serves as a temporary simulation of the support that an Orthotic will provide on a more permanent basis. These measures will eliminate the problem in about 85% of patients within 3 weeks. Some get better quickly, others take the full 3 weeks.</p>
               <p>Surgery becomes necessary for the few who do not benefit from treatment. Heel spur removal is done only in the rare instance where the bony projection is directed downwards.</p>
             </div>
+            <a class="button tiny" href="#top">Back to top</a>
           </article>
 
           <hr/>
@@ -165,6 +172,7 @@
                 <p>One disadvantage to prescription foot orthoses is that they are relatively expensive when compared to store bought over-the-counter foot inserts. Even though the over-the-counter inserts do help some people with mild symptoms, they do not have the potential to correct the wide range of symptoms that prescription foot orthoses can since they are made to fit a person with an "average" foot shape.</p>
                 <p>In this fashion, prescription foot orthoses may be considered to be analogous to prescription eyeglasses. Over-the-counter eyeglasses may work for some people since they are made to correct for the average eye. However, over-the-counter eyeglasses will almost never work as well as prescription eyeglasses. Prescription foot orthoses, since they are custom made to each foot of a patient, are almost always more corrective and comfortable than over-the-counter foot inserts, even though over-the-counter inserts do work for some people.</p>
               </div>
+              <a class="button tiny" href="#top">Back to top</a>
           </article>
 
           <hr/>
@@ -182,6 +190,7 @@
                 <p>If the pain continues, your doctor may send you for physical therapy, such as contrast bathes, ultrasound, massage, electrical stimulation, and/or stretching and strengthening exercises. Your may need to start wearing orthotics. If the problem is being caused by an underlying medical condition, your doctor may send you to a general practitioner or other medical specialist for treatment of that condition. In more severe cases, the tendon may need to be surgically repaired.</p>
                 <p>The best way to prevent tendonitis is to stretch properly before any work out or athletic event. Wear high quality, supportive shoes that are made for your specific foot type. If you have been prescribed orthotics, wear them as directed. If you have an underlying medical problem that may cause tendonitis, follow the treatment plan for that condition. Finally, keep in good communication with your doctor so that if a problem arises, it can be treated quickly and accurately. </p>
                </div>
+               <a class="button tiny" href="#top">Back to top</a>
           </article>
 
           <hr/>
@@ -200,6 +209,7 @@
                 <h5>Treatment</h5>
                 <p>Most forms of arthritis can not be cured, they can be controlled. If your symptoms are mild, medications may be enough to control the pain and swelling. Relieving the pain, controlling the inflammation and preserving or restoring joint movement and functions are the goals of any treatment program. For more severe arthritis, surgery may be needed to accomplish those goals. Living comfortably with arthritis requires both rest and exercise. Shoe inserts ( Orthotics) my help with improving foot function, and reduce pain. Good shoes may be helpful in accommodating the joint deformities as well.</p>
               </div>
+              <a class="button tiny" href="#top">Back to top</a>
           </article>
 
           <hr/>
@@ -224,6 +234,7 @@
                 <p>Finally, if these more conservative treatments don't work, then the faulty nerve may need to be removed. This is only a sensory nerve that doesn't control any muscles and only provides sensation to a small area between the toes. The nerve is removed through an incision in the top or bottom of the affected area. The nerve is identified and snipped just behind the swollen part and just beyond where it splits in two. Frequently, the tight ligament between the metatarsal bones is also cut to allow more room. It is a relatively minor procedure.</p>
                 <p>Another procedure involves the destruction of the sensitive nerve through the injection of caustic medications. Either way, the area between the affected toes is likely to remain numb forever. However, this is rarely more than a minor annoyance.</p>
              </div>
+             <a class="button tiny" href="#top">Back to top</a>
           </article>
 
           <hr/>
@@ -240,6 +251,7 @@
                 <h5>Treatment of Bunion Deformity</p>
                 <p>Early treatment of bunions is centered on providing symptomatic relief. Switching to a shoe with a rounder, deeper toe box and made of a softer more pliable leather will often provide immediate relief. The use of pads and cushions to reduce the pressure over the bone can also be helpful for mild bunion deformities. Controlling abnormal pronation, by the use of Orthotics and ther by reduces the deforming forces leading to bunions in the first place is usually the initial treatment of choice. These may help reduce pain in mild bunion deformities and slow the to provided adequate relief, surgical correction is indicated. The choice of surgical procedures (<strong>bunionectomy</strong>) is based on a biomechanical and radiographic examination of the foot. Because there is actual bone displacement and joint adaptation, most successful bunionectomies require cutting and realigning the 1st metatarsal (an <strong>osteotomy</strong>). Simply "shaving the bump" is often inadequate in providing long-term relief of symptoms and in some cases can actually cause the bunion to progress faster. The most common procedure performed for the correction of bunions is the osteotomy near the level of the joint.</p>
               </div>
+              <a class="button tiny" href="#top">Back to top</a>
           </article>
 
           <hr/>
@@ -256,6 +268,7 @@
                 <h5>Treatment</h5>
                 <p>The most important thing is to purchase well fitted, comfortable, low heeled shoes that do not irritate the crooked toe. Also, make sure your stockings are not tight, causing the toes to contract. High heel shoes should be worn at a minimum, as they cause the tendons of the toes to pull them up into an contracted position. Tennis type and walking shoes have significantly decreased the complaint of many people with hammertoe deformities. Although the crooked toe is still present, it may not hurt if the shoe is large enough. <strong>BATHTUB SURGERY IS NOT A GOOD IDEA!</strong> Trimming corns with a razor blade may give temporary relief, but is dangerous, as you can cut yourself and cause an infection. Non-medicated pads from the drug store do give relieve from shoe pressure and are helpful. However, if the toe becomes red and swollen, consult with your family podiatrist right away. Treatment may range from more appropriate footgear to periodic trimming and padding of the corn. Cortisone injections may be indicated if a bursitis is present. Removable accommodative pads may be made for you. If conservative treatment is unsuccessful, surgical intervention may be suggested. In the early stages, when the toe joints are flexible. If the toe is relatively straight and the corn is caused by pressure on a spur, the enlarged bone may be remodeled and the spur removed. In more advanced cases, when the joint is dislocated, part of the bone at the joint may be removed. Most of these toe surgeries can be performed in the office or the outpatient surgery under local anesthesia. Sometimes you can wear sandals after surgery and other times, a special stiff soled shoe is used so you can walk right away.</p>
               </div>
+              <a class="button tiny" href="#top">Back to top</a>
           </article>
         </div>
 
@@ -263,25 +276,25 @@
           <nav id="side-nav" data-magellan-expedition="">
             <h5>External Foot Care</h5>
             <ul class="side-nav">
-              <li><a href="#AthleteFoot" data-magellan-arrival="AthleteFoot">Athlete's Foot</a></li>
-              <li><a href="#FungusNails" data-magellan-arrival="FungusNails">Fungus Nails</a></li>
-              <li><a href="#PlantarWarts" data-magellan-arrival="PlantarWarts">Plantar Warts</a></li>
-              <li><a href="#Ulcers" data-magellan-arrival="Ulcers">Ulcers</a></li>
-              <li><a href="#CornsCalluses" data-magellan-arrival="CornsCalluses">Corns & Calluses</a></li>
+              <li><a class="aside" href="#AthleteFoot" data-magellan-arrival="AthleteFoot">Athlete's Foot</a></li>
+              <li><a class="aside" href="#FungusNails" data-magellan-arrival="FungusNails">Fungus Nails</a></li>
+              <li><a class="aside" href="#PlantarWarts" data-magellan-arrival="PlantarWarts">Plantar Warts</a></li>
+              <li><a class="aside" href="#Ulcers" data-magellan-arrival="Ulcers">Ulcers</a></li>
+              <li><a class="aside" href="#CornsCalluses" data-magellan-arrival="CornsCalluses">Corns & Calluses</a></li>
             </ul>
             <h5>Internal Foot Care</h5>
             <ul class="side-nav">
-              <li><a href="#HeelSpur" data-magellan-arrival="HeelSpur">Heel Spur, Plantar Fascitis</a></li>
-              <li><a href="#IngrownToenails" data-magellan-arrival="IngrownToenails">Ingrown Toenail</a></li>
-              <li><a href="#Orthotics" data-magellan-arrival="Orthotics">Orthotics</a></li>
-              <li><a href="#Tendonitis" data-magellan-arrival="Tendonitis">Tendonitis</a></li>
-              <li><a href="#Arthritis" data-magellan-arrival="Arthritis">Arthritis</a></li>
+              <li><a class="aside" href="#HeelSpur" data-magellan-arrival="HeelSpur">Heel Spur, Plantar Fascitis</a></li>
+              <li><a class="aside" href="#IngrownToenails" data-magellan-arrival="IngrownToenails">Ingrown Toenail</a></li>
+              <li><a class="aside" href="#Orthotics" data-magellan-arrival="Orthotics">Orthotics</a></li>
+              <li><a class="aside" href="#Tendonitis" data-magellan-arrival="Tendonitis">Tendonitis</a></li>
+              <li><a class="aside" href="#Arthritis" data-magellan-arrival="Arthritis">Arthritis</a></li>
             </ul>
             <h5>Surgical Foot Care</h5>
             <ul class="side-nav">
-              <li><a href="#Neuroma" data-magellan-arrival="Neuroma">Neuroma</a></li>
-              <li><a href="#Bunion" data-magellan-arrival="Bunion">Bunion</a></li>
-              <li><a href="#Hammertoes" data-magellan-arrival="Hammertoes">Hammertoes</a></li>
+              <li><a class="aside" href="#Neuroma" data-magellan-arrival="Neuroma">Neuroma</a></li>
+              <li><a class="aside" href="#Bunion" data-magellan-arrival="Bunion">Bunion</a></li>
+              <li><a class="aside" href="#Hammertoes" data-magellan-arrival="Hammertoes">Hammertoes</a></li>
             </ul>
           </nav>
           <div class="panel">
@@ -292,22 +305,26 @@
         </aside>
         <script>
           $(function() {
-            var stickyHeight = $('aside').height();
+            var stickyHeight  = $('aside').height();
+            var windowTop     = $(window).scrollTop();
 
             $(window).scroll(function(){
-              var windowTop = $(window).scrollTop();
               if(stickyHeight < windowTop){
                 $('#side-nav').css({position: 'fixed', top: 0, marginTop: '45px'});
               }else{
                 $('#side-nav').css({position: 'relative'});
               }
             });
-            $('a').click(function(){
+            $('a.aside').click(function(){
               $('html, body').animate({
                 scrollTop: ($('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top ) - 45
               }, 500);
               return false;
             });
+            $('a.tiny').click(function(){
+              console.log('back to top');
+              window.scrollTo(0,0);
+            })
             $.fn.foundationMagellan
           });
         </script>

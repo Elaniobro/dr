@@ -16,7 +16,7 @@
             <li>1976:  Externship Northlake Community Hospital, Chicago, IL</li>          </ul>
           <h4>Professional Affiliation</h4>
           <ul>
-            <li>Maryland Podiatric Medical Association</li>
+            <li>Washington D.C. Podiatric Medical Association</li>
             <li>American Podiatric Medical Association</li>
           </ul>
           <h4>Office Hours</h4>

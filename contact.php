@@ -3,10 +3,10 @@
       <div class="row">
         <div class="large-9 columns">
           <h3>Get in Touch!</h3>
-          <p>We'd love to hear from you. You can either reach out to us as a whole and one of our awesome team members will get back to you, or if you have a specific question reach out to one of our staff. We love getting email all day <em>all day</em>.</p>
+          <p>We love hearing from our patients and reading their e-mail's to know what is on their mind. Contact us with any questions or comments you may have for anyone on our staff, including <em>Dr. Trybuch</em>.</p>
           <div class="section-container tabs" data-section>
             <section class="section">
-              <h5 class="title"><a href="#panel1">Contact Dr. Trybuch</a></h5>
+              <h5 class="title">Contact Dr. Trybuch</h5>
               <div class="content" data-slug="panel1">
                 <form data-abide="ajax" id="contact">
                   <div class="row collapse">
@@ -23,7 +23,7 @@
                       <label class="inline"> Your Email</label>
                     </div>
                     <div class="large-10 columns">
-                      <input type="email" id="email" placeholder="jane@smithco.com" required>
+                      <input type="email" id="email" placeholder="jane.doe@gmail.com" required>
                       <small class="error">What email should we reply to?</small>
                     </div>
                   </div>
@@ -38,7 +38,7 @@
               <h5 class="title">Staff</h5>
               <div class="content" data-slug="panel2">
                 <ul class="large-block-grid-5">
-                  <li data-attribute="doctor"><a href="mailto:dr@myfeetdoc.com"><img src="/img/doctor_sm.jpg" alt="Dr.Trybuch">Dr. Trybuch</a></li>
+                  <li data-attribute="doctor"><img src="/img/doctor_sm.jpg" alt="Dr.Trybuch">Dr. Trybuch</li>
                 </ul>
               </div>
             </section>

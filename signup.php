@@ -308,6 +308,5 @@
         });
       });
     });
-  console.log('end');
     </script>
 <?php include('footer.php'); ?>

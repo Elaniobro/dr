@@ -6217,3 +6217,13 @@ th.hide-for-touch {
   background: #fff;
   color:#000;
 }
+div#patient-info-container {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    background: #fff;
+    height: 100vh;
+}
+div#request-wrapper{
+  display: none;
+}

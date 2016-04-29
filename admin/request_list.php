@@ -16,7 +16,7 @@
   $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
-      echo "<table>";
+      echo "<table id='request-list'>";
         echo "<thead>";
           echo "<tr>";
             echo "<th width='10'>id</th>";
@@ -28,19 +28,23 @@
             echo "<th width='20'>phone number</th>";
             echo "<th width='250'>notes</th>";
             echo "<th width='25'>delete</th>";
-          echo "<tr>";
-        echo "<thead>";
+          echo "</tr>";
+        echo "</thead>";
         echo "<tbody>";
         // output data of each row
         while($row = $result->fetch_assoc()) {
           echo "<tr>";
-            echo "<td>" . $row["id"]. "</td><td>" . $row["full_name"]. "</td><td>" . $row["email"]. "</td><td>" . $row["select_time"] . "</td><td>" . $row["apt_date"] . "</td><td>" . $row["visit"] . "</td><td>" . $row["phone_number"] . "</td><td>" . $row["notes"] ."</td><td class'delete'><a  class='button alert tiny' href='delete.php?id=" . $row["id"] . "'>Delete</td>";
+            echo "<td>" . $row["id"]. "</td><td>" . $row["full_name"]. "</td><td>" . $row["email"]. "</td><td>" . $row["select_time"] . "</td><td>" . $row["apt_date"] . "</td><td>" . $row["visit"] . "</td><td>" . $row["phone_number"] . "</td><td>" . $row["notes"] ."</td><td class='delete'><a  class='button alert tiny' href='delete.php?id=" . $row["id"] . "'>Delete</td>";
           echo "</tr>";
         }
+        echo "</tbody>";
+      echo "</table>";
     } else {
-        echo "<div class='row'><div class='large-12 columns'><h2>There are no new requests at this time.</h2></div></div>";
+        echo "<div class='row'>";
+          echo "<div class='large-12 columns'>";
+            echo "<h2>There are no new requests at this time.</h2>";
+          echo "</div>";
+        echo "</div>";
     }
-    echo "<tbody>";
-  echo "<table>";
   $conn->close();
 

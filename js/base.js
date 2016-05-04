@@ -1,5 +1,4 @@
 console.log( 'base.js' )
-
 var templates = {};
 Handlebars.registerHelper('equals', function ( one, two, options ){
 	 if (one === two) {
@@ -19,12 +18,16 @@ function display_template( tmpl, data ) {
 $(document).ready(function(){
 	var btnRequests 	= $( '#btn-requests' ),
 		btnPatients		= $( '#btn-patients' ),
+		btnAdmin		= $( '#btn-admin' ),
+		btnPrint		= $( '.btn-print' ),
+		btnClose 		= $( '.btn-close' ),
 		requestWrapper  = $( '#request-wrapper' ),
 		patientWrapper	= $( '#patient-wrapper' ),
 		patientInfo 	= $( '#patient-info-container' ),
 		quote			= $( '#quote' );
+
 	//ADMIN section
-	$( ".btn-admin" ).on( "click", function ( e ){
+	$( '.btn-admin' ).on( "click", function ( e ){
 		console.log('hi');
 		patientInfo.hide();
 		quote.hide();
@@ -39,9 +42,18 @@ $(document).ready(function(){
 			patientWrapper.show();
 		}
 	});
+	$( patientInfo ).on( 'click', btnAdmin, function ( e ) {
+		if( e.target.id === 'btn-close'){
+			patientInfo.hide();
+		}else{
+			printDiv( patientInfo );
+		}
+	});
 
 	//Show indepth patient form.
-	$( '.more-info' ).click(function(e){
+	$( '.more-info' ).click( function( e ){
+		console.log('here')
+		quote.hide();
 		patientInfo.empty().show();
 		var templateName = 'patient_template',
 		 	data = $( this ).siblings( '.patient-info' ).data( 'info' );
@@ -55,5 +67,16 @@ $(document).ready(function(){
 		  display_template(templateName, data);
 		}
 	})
+
+	function printDiv( divName ) {
+		var printContents 		= patientInfo.html();     
+		var originalContents 	= $( 'body' ).html();   
+		// set up print opbject
+		printContents = $( 'body' ).html();      
+		// print window
+		window.print();      
+		// return page contents to dom		
+		originalContents = $( 'body' ).html();
+   }
 
 })

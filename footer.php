@@ -3,7 +3,7 @@
         <hr/>
         <div class="row">
           <div class="large-6 columns">
-            <p>©<span id="copyright-date"></span> • Dr. Eliezer Trybuch, DPM, LLC</p>
+            <p>©<span id="copyright-date"></span> • Dr. Eliezer Trybuch, DPM</p>
           </div>
           <div class="large-6 columns">
             <ul class="inline-list right">

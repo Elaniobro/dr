@@ -1,0 +1,212 @@
+  <div class="row">
+    <div class="large-12 columns">
+        <a href="#" class="button alert tiny btn-admin" id="btn-close">close</a>
+        <a href="#" class="button success tiny btn-admin" id="btn-print">print</a>
+    </div>
+  </div>
+  <!-- Full Name, Phone & DOB-->
+  <div class="row">
+    <div class="large-4 columns">
+      <label>First Name:
+        <input value="{{first_name}}" type="text" id="first_name" />
+      </label>
+    </div>
+    <div class="large-4 columns">
+      <label>Last Name:
+        <input value="{{last_name}}" type="text" id="last_name" />
+      </label>
+    </div>
+    <div class="large-2 columns">
+      <label>Phone #:
+        <input value="{{phone_number}}" type="dashes_only" id="phone_number" />
+      </label>
+    </div>
+    <div class="large-2 columns">
+      <div class="input-append date" data-date="" data-date-format="mm/dd/yyy">
+        <label> Date of Birth:
+          <input value="{{dob}}" id="dob" size="16" type="text" value="" />
+          <span class="add-on"><i class="icon-th"></i></span>
+        <label>
+      </div>
+    </div>
+  </div>
+  <!-- Address-->
+  <div class="row">
+    <div class="large-4 columns">
+      <label>Address:
+        <input value="{{address_1}}" type="text" id="address_1" />
+      </label>
+    </div>
+    <div class="large-2 columns">
+      <label>Address 2:
+        <input value="{{address_2}}" type="text" id="address_2" />
+      </label>
+    </div>
+    <div class="large-3 columns">
+      <label>city:
+        <input value="{{city}}" type="text" id="city" />
+      </label>
+    </div>
+    <div class="large-1 columns">
+      <label>State:
+        <input value="{{state}}" id="state" type="text"/>
+      </label>
+    </div>
+    <div class="large-2 columns">
+      <label>Zip Code:
+        <input value="{{zip_code}}" type="number" id="zip_code" />
+      </label>
+    </div>
+  </div>
+  <!-- Email, Primary Insurance-->
+  <div class="row">
+    <div class="large-3 columns">
+      <label>Primary Insurance:
+        <input value="{{primary_insurance}}" id="primary_insurance" type="text" />
+      </label>
+    </div>
+    <div class="large-3 columns">
+      <label>ID #:
+        <input value="{{primary_insurance_id}}" id="primary_insurance_id" type="text" />
+      </label>
+    </div>
+    <div class="large-3 columns">
+      <label>E-mail:
+        <input value="{{email}}" type="email" id="email" />
+      </label>
+    </div>
+    <div class="large-3 columns">
+      <label>Current medications taken:
+        <input value="{{current_medications}}" type="text" id="current_medications" />
+      </label>
+    </div>
+  </div>
+  <!-- Secondary Insurance, Primary Care-->
+  <div class ="row">
+    <div class="large-3 columns">
+      <label>Secondary Insurance:
+        <input value="{{secondary_insurance}}" id="secondary_insurance" type="text" />
+      </label>
+    </div>
+    <div class="large-3 columns">
+      <label>ID #:
+        <input value="{{secondary_insurance_id}}" id="secondary_insurance_id" type="text" />
+      </label>
+    </div>
+    <div class="large-3 columns">
+      <label>Primary Care Doctor's Name:
+        <input value="{{primary_care_name}}" type="dashes_only" id="primary_care_name" />
+      </label>
+    </div>
+    <div class="large-3 columns">
+      <label>Primary Care Doctor's #:
+        <input value="{{primary_care_number}}" type="dashes_only" id="primary_care_number" />
+      </label>
+    </div>
+  </div>
+  <!-- Questionaire, Pharmacy Info -->
+  <div class="row">
+    <div class="large-3 columns">
+        <label>Currently under treatment?</label>
+         {{#equals treatment "1"}}
+          <input type="radio" checked /><label for="treatment">Yes</label>
+          <input type="radio" /><label for="treatment">No</label>
+        {{else}}
+          <input type="radio" /><label for="treatment">Yes</label>
+          <input type="radio" checked/><label for="treatment">No</label>
+        {{/equals}}
+    </div>
+    <div class="large-3 columns">
+        <label>Are you Diabetic?</label>
+        {{#equals diabetes "1"}}
+          <input type="radio" checked /><label for="diabetes">Yes</label>
+          <input type="radio" /><label for="diabetes">No</label>
+        {{else}}
+          <input type="radio" /><label for="diabetes">Yes</label>
+          <input type="radio" checked/><label for="diabetes">No</label>
+        {{/equals}}
+    </div>
+     <div class="large-3 columns">
+      <label>Pharmacy Name:
+        <input value="{{pharmacy_name}}" type="text" id="pharmacy_name" />
+      </label>
+    </div>
+     <div class="large-3 columns">
+      <label>Pharmacy Location:
+        <input value="{{pharmacy_loc}}" type="text" id="pharmacy_loc" />
+      </label>
+    </div>
+  </div>
+  <!-- Medical History & Current Meds -->
+  <div class="row">
+    <div class="large-3 columns">
+      <label>Are you currently taking any Blood Thining Medications?</label>
+        {{#equals blood_meds "1"}}
+        <input type="radio" checked="checked" /><label for="blood_meds">Yes</label>
+        <input type="radio" /><label for="blood_meds">No</label>
+        {{else}}
+        <input type="radio" /><label for="blood_meds">Yes</label>
+        <input type="radio" checked="checked"/><label for="blood_meds">No</label>
+        {{/equals}}
+    </div>
+    <div class="large-5 columns">
+      <label>Do you have any of the following? (Check all that apply)</label>
+        {{#equals kidney_disorder "1"}}
+          <input type="checkbox" checked="checked" /><label for="kidney_disorder">kidney_disorder</label>
+        {{else}}
+          <input type="checkbox"/><label for="kidney_disorder">kidney_disorder</label>
+        {{/equals}}
+          <br/>
+
+        {{#equals high_blood_pressure "1"}}
+          <input type="checkbox" checked="checked" /><label for="high_blood_pressure">high_blood_pressure</label>
+        {{else}}
+          <input type="checkbox"/><label for="high_blood_pressure">high_blood_pressure</label>
+        {{/equals}}
+          <br/>
+
+        {{#equals heart_condition "1"}}
+          <input type="checkbox" checked="checked" /><label for="heart_condition">heart_condition</label>
+        {{else}}
+          <input type="checkbox"/><label for="heart_condition">heart_condition</label>
+        {{/equals}}
+    </div>
+    <div class="large-2 columns">
+          <br/>
+        {{#equals cancer "1"}}
+          <input type="checkbox" checked="checked" /><label for="cancer">cancer</label>
+        {{else}}
+          <input type="checkbox"/><label for="cancer">cancer</label>
+        {{/equals}}
+          <br/>
+
+        {{#equals hiv "1"}}
+          <input type="checkbox" checked="checked" /><label for="hiv">hiv</label>
+        {{else}}
+          <input type="checkbox"/><label for="hiv">hiv</label>
+        {{/equals}}
+          <br/>
+
+        {{#equals gout "1"}}
+          <input type="checkbox" checked="checked" /><label for="gout">gout</label>
+        {{else}}
+          <input type="checkbox"/><label for="gout">gout</label>
+        {{/equals}}
+    </div>
+    <div class="large-2 columns">
+      <br/>
+        {{#equals poor_circulation "1"}}
+          <input type="checkbox" checked="checked" /><label for="poor_circulation">poor_circulation</label>
+        {{else}}
+          <input type="checkbox"/><label for="poor_circulation">poor_circulation</label>
+        {{/equals}}
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <label>How were you referred to Dr. Trybuch?
+        <textarea value="{{referred}}" id="referred"type="text" rows="6"></textarea>
+      </label>
+    </div>
+  </div>

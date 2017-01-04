@@ -1,7 +1,7 @@
 <?php include('../header.php') ?>
       <div class="row">
         <div class="large-9 push-3 columns">
-          <h3>Dr. Eliezer Trybuch DPM, LLC <small>Medical & Surgical Care of the Foot</small></h3>
+          <h3>Dr. Eliezer Trybuch DPM <small>Medical & Surgical Care of the Foot</small></h3>
           <h4>Expereince</h4>
           <p>Hospital Affiliation:
             <ul>

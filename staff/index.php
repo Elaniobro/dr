@@ -1,7 +1,7 @@
 <?php include('../header.php') ?>
-      <div class="row">    
+      <div class="row">
         <div class="large-9 push-3 columns">
-          <h3>Dr. Eliezer Trybuch DPM, LLC <small>Medical & Surgical Care of the Foot</small></h3>
+          <h3>Dr. Eliezer Trybuch DPM <small>Medical & Surgical Care of the Foot</small></h3>
           <h4>Expereince</h4>
           <p>Hospital Affiliation:
             <ul>
@@ -27,13 +27,13 @@
             <li>Thursday:  Capitol Hill  9:00am - 5:00pm</li>
           </ul>
         </div>
-        <div class="large-3 pull-9 columns">          
-          <p><img src="http://placehold.it/320x480&text=Dr. Trybuch"/></p>            
+        <div class="large-3 pull-9 columns">
+          <p><img src="http://placehold.it/320x480&text=Dr. Trybuch"/></p>
           <ul class="side-nav">
             <li>Silver Spring:<span class="number">301.622.3040</span></li>
             <li>Capitol Hill:<span class="number">202.543.0035</li>
             <li>Fax: <span class="number">301.622.0779</span></li>
           </ul>
         </div>
-      </div>    
-<?php include('../footer.php') ?>     
+      </div>
+<?php include('../footer.php') ?>

@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('header_local.php'); ?>
 <form data-abide="ajax" id="signup">
   <div class="row">
     <div class="large-12 columns">
@@ -143,8 +143,8 @@
     <div class="large-3 columns">
       <label>Current medications taken:
         <input name="current_medications" type="text" id="current_medications" placeholder="ex: tyenol, advil, etc.."/>
-      </label>      
-    </div>      
+      </label>
+    </div>
   </div>
   <!-- Secondary Insurance, Primary Care-->
   <div class ="row">
@@ -164,8 +164,8 @@
       </label>
     </div>
     <div class="large-3 columns">
-      <label>Primary Care Doctor's #: 
-        <input name="primary_care_number" type="number" id="primary_care_number" placeholder="ex: 555-555-5555" />
+      <label>Primary Care Doctor's #:
+        <input name="primary_care_number" type="dashes_only" id="primary_care_number" placeholder="ex: 555-555-5555" required/>
       </label>
     </div>
   </div>
@@ -179,21 +179,21 @@
     </div>
     <div class="large-3 columns">
         <label>Are you Diabetic?</label>
-        <input type="radio" name="diabetic" value="yes" required><label for="diabetic">Yes</label>
-        <input type="radio" name="diabetic" value="no" required><label for="diabetic">No</label>
+        <input type="radio" name="diabetes" value="yes" required><label for="diabetes">Yes</label>
+        <input type="radio" name="diabetes" value="no" required><label for="diabetes">No</label>
        <small class="error">Please indcate your status.</small>
     </div>
      <div class="large-3 columns">
       <label>Pharmacy Name: <small>required</small>
         <input name="pharmacy_name" type="text" id="pharmacy_name" placeholder="ex: CVS" required/>
       </label>
-      <small class="error">What is the name of your pharmacy?</small>     
+      <small class="error">What is the name of your pharmacy?</small>
     </div>
      <div class="large-3 columns">
       <label>Pharmacy Location: <small>required</small>
         <input name="pharmacy_loc" type="text" id="pharmacy_loc" placeholder="ex: 123 main st, Washington D.C." required/>
       </label>
-      <small class="error">What is the locaiton of your pharmacy?</small>     
+      <small class="error">What is the locaiton of your pharmacy?</small>
     </div>
   </div>
   <!-- Medical History & Current Meds -->
@@ -239,7 +239,7 @@
 </form>
     <script>
     $(function(){
-      $('#dob').fdatepicker();
+       $('#dob').fdatepicker();
        $('#signup').on('valid', function(e) {
         //prevent default form submitting and propagatin so it can run the ajax code first
         e.stopPropagation();
@@ -264,15 +264,15 @@
               primary_care_name         = $("input#primary_care_name").val(),
               primary_care_number       = $("input#primary_care_number").val(),
               treatment                 = $("input[name=treatment]:checked").val(),
+              blood_meds                = $("input[name=blood_meds]:checked").val(),
+              diabetes                  = $("input[name=diabetes]:checked").val(),
               current_medications       = $("input#current_medications").val(),
-              blood_meds                = $("input#blood_meds").is(':checked'),
               cancer                    = $("input#cancer").is(':checked'),
               hiv                       = $("input#hiv").is(':checked'),
               gout                      = $("input#gout").is(':checked'),
               heart_condition           = $("input#heart_condition").is(':checked'),
               high_blood_pressure       = $("input#high_blood_pressure").is(':checked'),
               kidney_disorder           = $("input#kidney_disorder").is(':checked'),
-              diabetes                  = $("input#diabetes").is(':checked'),
               poor_circulation          = $("input#poor_circulation").is(':checked'),
               referred                  = $("textarea#referred").val(),
               pharmacy_name             = $("input#pharmacy_name").val(),
@@ -282,11 +282,11 @@
 
           //Data for reponse (store the values here)
           var dataString = 'last_name=' + last_name + '&first_name=' + first_name + '&address_1=' +  address_1+ '&address_2=' + address_2+ '&city=' + city + '&state=' + state + '&zip_code=' + zip_code + '&phone_number=' + phone_number + '&dob=' + dob + '&email=' + email +
-               '&primary_insurance=' + primary_insurance + '&primary_insurance_id=' + primary_insurance_id + 
+               '&primary_insurance=' + primary_insurance + '&primary_insurance_id=' + primary_insurance_id +
               '&secondary_insurance=' + secondary_insurance + '&secondary_insurance_id=' + secondary_insurance_id + '&primary_care_name=' + primary_care_name + '&primary_care_number=' + primary_care_number +
-              '&treatment=' + treatment + '&current_medications=' + current_medications + '&cancer=' + cancer + '&hiv=' + hiv + '&gout=' + gout + '&heart_condition=' + heart_condition + '&high_blood_pressure=' + high_blood_pressure + '&kidney_disorder=' + kidney_disorder + 
+              '&treatment=' + treatment + '&current_medications=' + current_medications + '&cancer=' + cancer + '&hiv=' + hiv + '&gout=' + gout + '&heart_condition=' + heart_condition + '&high_blood_pressure=' + high_blood_pressure + '&kidney_disorder=' + kidney_disorder +
               '&diabetes=' + diabetes + '&poor_circulation=' + poor_circulation + '&referred=' + referred + '&pharmacy_name=' + pharmacy_name + '&pharmacy_loc=' + pharmacy_loc + '&blood_meds=' + blood_meds;
-         
+
           //Begin Ajax call
           $.ajax({
             type: "POST",
@@ -294,7 +294,7 @@
             data: dataString, //stores the data to be passed
             success: function(data){ // if success then generate the div and append the the following
               $('#signup').html("<div id='success' class='row'></div>");
-              $('#success').html("<br /><h4>Thank you for saving paper!</h4>")
+              $('#success').html("<br /><br /><br /><h4>Thank you for saving paper!</h4>")
               .append('<p>'+ first_name + ' ' + last_name + ',<br />by filling out paperwork online, this helps your visit become quicker.</p>')
               .hide()
               .fadeIn(1500);

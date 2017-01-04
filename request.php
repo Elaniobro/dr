@@ -1,6 +1,6 @@
-<?php include('header.php'); ?>
+<?php include('header_local.php'); ?>
 <form data-abide="ajax" id="request">
-  
+
   <div class="row">
     <div class="large-12 columns">
       <h1>Appointment Request</h2>
@@ -101,7 +101,7 @@
     $(function(){
       var nowTemp = new Date();
       var now = new Date(nowTemp.getFullYear(), nowTemp.getMonth(), nowTemp.getDate(), 0, 0, 0, 0);
-   
+
       var checkin = $('#apt_date').fdatepicker({
           onRender: function (date) {
               return date.valueOf() < now.valueOf() ? 'disabled' : '';
@@ -124,12 +124,12 @@
       }).data('datepicker');
 
        $('#request').on('valid', function(e) {
-        //prevent default form submitting and propagatin so it can run the ajax code first 
+        //prevent default form submitting and propagatin so it can run the ajax code first
         e.stopPropagation();
         e.preventDefault();
-       
+
        //
-        $('#request').on('valid.fndtn.abide', function() {    //if the form is valid then grab the values of these IDs (name, email, message) 
+        $('#request').on('valid.fndtn.abide', function() {    //if the form is valid then grab the values of these IDs (name, email, message)
          var  full_name       = $("input#full_name").val(),
               email           = $("input#email").val(),
               select_time     = $("select#select_time").val(),
@@ -141,20 +141,20 @@
 
           //Data for reponse (store the values here)
           var dataString =  'full_name=' +full_name +  '&email=' + email + '&select_time=' + select_time + '&apt_date=' + apt_date + '&visit=' + visit + '&office_location=' + office_location + '&phone_number=' + phone_number + '&notes=' + notes;
-          
+
           console.log(dataString);
           //Begin Ajax call
           $.ajax({
             type: "POST",
-            url:"dir/request_submit.php", //runs the php code 
-            data: dataString, //stores the data to be passed 
+            url:"dir/request_submit.php", //runs the php code
+            data: dataString, //stores the data to be passed
             success: function(data){ // if success then generate the div and append the the following
               $('#request').html("<div id='success'></div>");
               $('#success').html("<br /><h4>Thank you!</h4>")
               .append('<p>'+ full_name + ',<br />Someone from the office will call and confirm your appointment.</p>')
               .hide()
               .fadeIn(1500);
-             
+
             },
             error: function(jqXHR, status, error){ //this is to check if there is any error
                 alert("status: " + status + " message: " + error);
@@ -162,8 +162,8 @@
           }); //End Ajax call
           return false;
         });
-      });  
+      });
     });
-  
+
     </script>
 <?php include('footer.php'); ?>
